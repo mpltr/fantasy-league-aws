@@ -1,0 +1,24 @@
+{
+	"Functional Component": {
+		"scope": "javascriptreact",
+		"prefix": "Functional Component",
+		"body": [
+			"import React from 'react'",
+			"",
+			"const ${1:name} = () => {",
+			"    return (",
+        	"        <div>",
+			"",
+            "            <style jsx>{`",
+
+	        "            `}</style>",
+        	"        </div>",
+			"    )",
+			
+			"}",
+
+			"export default ${1:name}"
+		],
+		"description": "Nextjs Functional Component with Styled JSX"
+	}
+}
